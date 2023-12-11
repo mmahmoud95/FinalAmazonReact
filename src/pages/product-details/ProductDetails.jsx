@@ -162,8 +162,7 @@ const ProductDetails = () => {
                                 showArrows={true}
                                 autoPlay={true}
                                 infiniteLoop={true}
-                                verticalSwipe='vertical'
-                                selectedItem={0}
+                                selectedItem={1}
                                 onChange={handleChange}
                                 className='carousel-container h-100 '
                             >
