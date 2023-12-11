@@ -159,11 +159,11 @@ const ProductDetails = () => {
                         <div className='col-lg-5 p-2' dir='ltr'>
                             <Carousel
                                 animation={true}
-                                showArrows={false}
+                                showArrows={true}
                                 autoPlay={true}
                                 infiniteLoop={true}
-                                verticalSwipe='standard'
-                                selectedItem={myProd?.images[2]}
+                                verticalSwipe='vertical'
+                                selectedItem={0}
                                 onChange={handleChange}
                                 className='carousel-container h-100 '
                             >
