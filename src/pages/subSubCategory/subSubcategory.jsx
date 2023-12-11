@@ -197,11 +197,11 @@ export const SubSubcategory = () => {
 			<div className=' row  mt-1 py-1 rounded border border-light-subtle shadow'>
 				<div className='col-sm-10 '>
 					<p className='fs-6 ms-5 pt-2'>
-						{pagination.skip + 1} -
-						{pagination.currentPage ==
-						pagination.numberOfPages
+						{pagination?.skip + 1} -
+						{pagination?.currentPage ==
+						pagination?.numberOfPages
 							? productlength
-							: pagination.limit + pagination.skip}
+							: pagination?.limit + pagination?.skip}
 						{/* {pagination.limit + pagination.skip} */}{" "}
 						{t("category.part18")} {productlength}{" "}
 						{t("category.part19")}
